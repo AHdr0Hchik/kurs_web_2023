@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>ЛР5 В10(Главная)</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar-header">
+            <ul>
+                <li><a href="index.html">Домой</a></li>
+                <li><a href="about.html">О нас</a></li>
+                <li><a href="contacts.html">Контакты</a></li>
+                <li><a href="#">Поддержка</a></li>
+                <li><a href="#">Войти</a></li>
+            </ul>
+        </nav>
+        <img class="logo" src="../logo.png" alt="">
+        <div class="search">
+            <a href="#"><img src="../public/svg/ok.svg" alt=""></a>
+            <a href="#"><img src="../public/svg/twitter.svg" alt=""></a>
+            <input type="text" class="search-inp" placeholder="Найти...">
+        </div>
+        
+    </header>
+    <main>
+        <input type="checkbox" class="burger-checkbox" id="burger-checkbox">
+        <label for="burger-checkbox" class="burger"></label>
+        <nav class="navbar-main menu-list">
+            <a class="menu-item" href="news.html">Новости</a>
+            <a class="menu-item" href="#">Культура</a>
+            <a class="menu-item" href="#">Образование</a>
+            <a class="menu-item" href="#">Наука</a>
+            <a class="menu-item" href="#">Сотрудничество</a>
+        </nav>
+        
+            
+        
+        <section class="l-side">
+            <h1>Жанры книг</h1>
+            <div class="genre">
+                <a href="">
+                    <img src="./img/categories/science.jpg"> 
+                    <h3>Фантастика</h3>  
+                </a>
+            </div>
+            <div class="genre">
+                <a href="">
+                    <img src="./img/categories/detective.jpg"> 
+                    <h3>Детектив</h3>  
+                </a>
+            </div>
+            <div class="genre">
+                <a href="">
+                    <img src="./img/categories/classic.jpg"> 
+                    <h3>Классика</h3>  
+                </a>
+            </div>
+            <div class="genre">
+                <a href="">
+                    <img src="./img/categories/scream.jpg"> 
+                    <h3>Ужасы</h3>  
+                </a>
+            </div>
+        </section>
+        <section class="r-side">
+            <div class="container">
+                <input type="radio" id="i1" name="images" checked/>
+                <input type="radio" id="i2" name="images" />
+                <input type="radio" id="i3" name="images" />
+                <input type="radio" id="i4" name="images"  />
+                
+                <div class="slide_img" id="one">			
+                        
+                        <img src="./img/slides/1.jpg">
+                        
+                            <label class="prev" for="i4"><span></span></label>
+                            <label class="next" for="i2"><span></span></label>	
+                    
+                </div>
+                
+                <div class="slide_img" id="two">
+                    
+                        <img src="./img/slides/2.jpeg" >
+                        
+                            <label class="prev" for="i1"><span></span></label>
+                            <label class="next" for="i3"><span></span></label>
+                    
+                </div>
+                        
+                <div class="slide_img" id="three">
+                        <img src="./img/slides/3.jpg">	
+                        
+                            <label class="prev" for="i2"><span></span></label>
+                            <label class="next" for="i4"><span></span></label>
+                </div>
+            
+            
+                <div class="slide_img" id="four">
+                        <img src="./img/slides/4.jpg">	
+                        
+                            <label class="prev" for="i3"><span></span></label>
+                            <label class="next" for="i1"><span></span></label>
+            
+                </div>
+            
+                <div id="nav_slide">
+                    <label for="i1" class="dots" id="dot1"></label>
+                    <label for="i2" class="dots" id="dot2"></label>
+                    <label for="i3" class="dots" id="dot3"></label>
+                    <label for="i4" class="dots" id="dot4"></label>
+                </div>   
+            </div>
+            <div class="news">
+                <h3>НОВОСТЬ!!!</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi perferendis dolor reprehenderit sapiente cum adipisci asperiores impedit provident debitis fuga a eaque cupiditate doloremque eius deleniti, possimus officiis hic molestias.</p>
+                <a href="#">Подробнее...</a>
+            </div>
+        </section>
+    </main>
+    <footer></footer>
+</body>
+</html>
