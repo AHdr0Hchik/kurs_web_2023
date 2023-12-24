@@ -454,6 +454,11 @@ body, html {
     height: 12px;
   }
 }
+@media screen and (max-width: 750px) {
+  .about p{
+    font-size: 14px;
+  }
+}
 @media screen and (max-width: 1050px) {
   .burger-checkbox {
     position: absolute;
